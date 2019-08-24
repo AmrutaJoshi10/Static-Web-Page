@@ -1,0 +1,39 @@
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="Lab2.css">
+            <script src="Lab2.js"></script>
+
+            <body onload ="setTheme()">                
+            <div class = "lighttheme"></div>
+
+           <h2> <center> <p class ="solid"> HOME PAGE</p></center></h2>
+            
+        <h5>Name : Amruta Joshi</h5>
+            <h5>Course : Internet Programming </h5>
+            <h5>Date:</h5>
+            <p id="demo"></p>
+            <script>
+                 var n =  new Date();
+                    var y = n.getFullYear();
+                     var m = n.getMonth() + 1;
+                    var d = n.getDate();
+                    document.getElementById("demo").innerHTML = m + "/" + d + "/" + y;
+                    </script>  
+                    <br>
+                    <br>  
+           
+                
+                <nav> 
+                        <a href= "Lab1.html"> Lab1 page</a><br>
+                        <a href= "sitemap.html">Sitemap page</a>
+                        </nav>
+
+                        <navKeysContainer style= "display:inline;">
+                                <navKey onclick="DarkTheme()">DT</navKey>
+                                <navKey onclick="LightTheme()">LT</navKey>
+                                <navKey onclick="PageReset()">PR</navKey>
+                            </navKeysContainer>
+                             
+      </body>
+    </head>
+</html>

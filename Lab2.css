@@ -1,0 +1,61 @@
+body
+{
+ font-family: verdana;
+ font-size: 30px;   
+}
+.darktheme{
+    background-color :gray;
+    color : yellow;
+}
+.lighttheme{
+    background-color:lightblue;
+    color: red;
+}
+navKeysContainer {
+  display: none;
+  font-size: 1.0em;
+  position: fixed;
+  top: 80px;
+  right: 30px;
+  padding: 0px;
+}
+navKey {
+  padding: 2px 5px;
+  margin:0px;
+  border: 1px solid black;
+  background-color: none;
+  cursor: default;
+  background-color: white;
+}
+navkey:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+a.linklighttheme {
+  color:green;
+}
+a.linkdarktheme {
+  color:black;
+}
+p.solid {border-style: solid;}
+
+.some-class {
+  float: right;
+  clear: none;
+  height: 40px;
+}
+
+label {
+  float: right;
+  clear: none;
+  height: 40px;
+
+}
+input[type=checkbox],
+input.checkbox {
+  float: right;
+  clear: none;
+  height: 35px;
+  width: 25px;
+
+}
